@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Criação de Personagem</title>
+    <link rel="stylesheet" href="novoPersonagem.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Criação de Personagem</h2>
+
+        <form action="/processar-formulario" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="aparencia">Aparência:</label>
+            <textarea id="aparencia" name="aparencia" rows="4" required></textarea>
+
+            <label for="altura">Altura:</label>
+            <input type="text" id="altura" name="altura" required>
+
+            <label for="antecedente">Antecedente:</label>
+            <input type="text" id="antecedente" name="antecedente" required>
+
+            <label for="bonus_ataque">Bônus de Ataque:</label>
+            <input type="number" id="bonus_ataque" name="bonus_ataque" required>
+
+            <label for="bonus_proficiencia">Bônus de Proficiência:</label>
+            <input type="number" id="bonus_proficiencia" name="bonus_proficiencia" required>
+
+            <label for="tipo_cabelo">Tipo de Cabelo:</label>
+            <input type="text" id="tipo_cabelo" name="tipo_cabelo" required>
+
+            <label for="resistencia_magica">Resistência Mágica:</label>
+            <input type="number" id="resistencia_magica" name="resistencia_magica" required>
+
+            <label for="classe_personagem">Classe do Personagem:</label>
+            <input type="text" id="classe_personagem" name="classe_personagem" required>
+
+            <label for="cor_olhos">Cor dos Olhos:</label>
+            <input type="text" id="cor_olhos" name="cor_olhos" required>
+
+            <label for="fraquezas">Fraquezas:</label>
+            <input type="number" id="fraquezas" name="fraquezas" required>
+
+            <label for="habilidade">Habilidade:</label>
+            <input type="number" id="habilidade" name="habilidade" required>
+
+            <label for="quantidade_vida">Quantidade de Vida:</label>
+            <input type="number" id="quantidade_vida" name="quantidade_vida" required>
+
+            <label for="historia">História:</label>
+            <textarea id="historia" name="historia" rows="6" required></textarea>
+
+            <input type="submit" value="Criar Personagem">
+        </form>
+    </div>
+
+</body>
+</html>

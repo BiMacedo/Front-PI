@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Open+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font: inter;
+}
+
+a {
+    color: #fff;
+}
+
+body {
+    /* background-image: url(imagens/DALL·E\ 2023-11-23\ 14.07.57\ -\ A\ mystical\ landscape\ at\ twilight\,\ featuring\ an\ array\ of\ jagged\ mountains\ shrouded\ in\ mist.\ In\ the\ sky\ above\ the\ highest\ peak\,\ a\ supernatural\ phenomeno.png); */
+    /* background: color(srgb red green blue); */
+    background-color: black;
+    /* background-image: url(PI/login/imagens/background-3.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remover as margens padrão */
+    height: 100vh;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font);
+}
+
+.cabecalho {
+    align-items: center;
+    /* background-color: #04141b; */
+    background-color: #04141b;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+}
+
+
+
+.menu-lista {
+    display: flex;
+    color: aliceblue;
+    padding: 2em;
+}
+
+.list-link {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    /* font-family: 'Inter', sans-serif; */
+}
+
+.cabecalho__list-link {
+    text-decoration: none;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaço entre os cards */
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 20px; /* Espaçamento ao redor dos cards */
+}
+
+#cabecalho__botao--font {
+    text-decoration: none;
+    background-color: red;
+    border-color: #fff;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container-cards {
+    background-color: white; /* Cor de fundo da caixa branca */
+    border: 1px solid #ccc; /* Borda ao redor da caixa */
+    border-radius: 10px; /* Raio da borda */
+    padding: 20px; /* Espaçamento interno da caixa */
+    margin: 20px auto; /* Margem superior e inferior para centralizar e separar do cabeçalho */
+    max-width: 1200px; /* Largura máxima da caixa (ajuste conforme necessário) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra da caixa */
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#04141b;
+    color: rgb(235, 235, 235);
+    padding: 3em;
+}
+
+  
