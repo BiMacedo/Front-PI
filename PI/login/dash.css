@@ -21,6 +21,7 @@ body {
   font-weight: 400;
   font-family: var(--font);
 }
+
 .cabecalho {
   align-items: center;
   background-color: #04141b;
@@ -28,9 +29,11 @@ body {
   justify-content: space-between;
   padding-left: 2rem;
 }
+
 .imagem {
   margin: 5px;
 }
+
 .menu-lista {
   display: flex;
   color: aliceblue;

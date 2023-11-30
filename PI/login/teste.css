@@ -3,6 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+html, body{
+    height: 100vh;
 }
 
 :root {
@@ -13,12 +18,11 @@ a {
     color: #fff;
 }
 body {
-    /* background-image: url(imagens/DALL·E\ 2023-11-23\ 14.07.57\ -\ A\ mystical\ landscape\ at\ twilight\,\ featuring\ an\ array\ of\ jagged\ mountains\ shrouded\ in\ mist.\ In\ the\ sky\ above\ the\ highest\ peak\,\ a\ supernatural\ phenomeno.png); */
-    /* background: color(srgb red green blue); */
-    background-color: black;
-    /* background-image: url(PI/login/imagens/background-3.png); */
+    background-image: url(imagens/dnd_home_ddb_lorecard.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover 100vh;
+    background-position: center;
+    /* background-size: 100%; */
     margin: 0; /* Remover as margens padrão */
     height: 100vh;
     font-size: 16px;
@@ -28,11 +32,10 @@ body {
 
 .cabecalho {
     align-items: center;
-    /* background-color: #04141b; */
     background-color: #04141b;
     display: flex;
     justify-content: space-between;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 
@@ -40,7 +43,7 @@ body {
 .menu-lista {
     display: flex;
     color: aliceblue;
-    padding: 2em;
+    padding: 0 2em;
 }
 
 .list-link {
@@ -48,7 +51,6 @@ body {
     padding: 10px;
     font-size: 15px;
     font-weight: 200;
-    /* font-family: 'Inter', sans-serif; */
 }
 
 .cabecalho__list-link {
@@ -56,7 +58,7 @@ body {
 }
 
 .container {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; /* Espaço entre os cards */
@@ -107,6 +109,7 @@ input, textarea, select {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: auto;
 }
 
 input[type="submit"] {
@@ -121,7 +124,6 @@ input[type="submit"]:hover {
 
 .formulario {
     width: 100%;; /* Adjust as needed */
-    /* Add any additional styling as required */
 }
 
 .caixa-formulario {
@@ -131,7 +133,6 @@ input[type="submit"]:hover {
     border-radius: 10px; /* Bordas arredondadas */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
     background-color: white; /* Fundo branco */
-    /* max-width: 600px;  */
     margin: auto; /* Centraliza a caixa */
     width: 40%; /* Ajuste a largura conforme necessário */
     margin: 20px
